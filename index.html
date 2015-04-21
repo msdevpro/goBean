@@ -3,123 +3,163 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Coffe Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Crete+Round">
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
-	<header>
-		<div class="wrapper">
-			<h1><span class="color">Go</span>Bean Coffee Shop</h1>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+
+	<div class="header-cont">
+		<header>
+			<div class="align-justify grid-block">
+				<div class="large-4 grid-block">
+					<h1><span class="theme-color">Go</span>Bean Coffee House</h1>
+				</div>
+				<div class="large-8 columns">
+					<nav>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#beans">Beans</a></li>
+							<li><a href="#location">Location</a></li>
+							<li><a href="#about">About Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<a name="home">
 
 	<div id="hero-image">
-		<div class="wrapper">
-			<h2><strong>A Minimal, clean</strong><br/>
-			layout for web design.</h2>
-			<a href="#" class="button-1">Get Started</a>
+		<div class="row">
+			<div class="large-4 columns"></div>
+			<div id="logo" class="small-hidden large-8 columns">
+				<div class="btn logo-circle">
+	            	<i class="fa fa-leaf fa-2x"></i><br>
+	            	<span id="logo-mug">
+	                	<i class="fa fa-coffee fa-3x"></i>
+	            	</span>
+	        	</div>
+			</div>
+		</div><br>
+
+		<div class="row">
+			<div id="hero-action" class="large-12 large-centered columns"><a href="#learn" class="button-1">Learn more</a></div>
+			<a name="learn">
 		</div>
+			
 	</div>
 
 	<div id="features">
-		<div class="wrapper">
-			<ul>
-				<li class="feature-1">
-					<h4>Easy to Edit</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
-				</li>
-				<li class="feature-2">
-					<h4>Layered PSD</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
-				</li>
-				<li class="feature-3">
-					<h4>Ready to Go</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
-				</li>
-				<div class="clear"></div>
-			</ul>
+		<div class="row">
+			<div class="large-12 large-centered columns">
+				<ul class="large-block-grid-3">
+					<li class="feature-1">
+						<a href="#beans">
+						<h4>Beans</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+					</li>
+					<li class="feature-2">
+						<a href="#location">
+						<h4>Location</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+					</li>
+					<li class="feature-3">
+						<a href="#about">
+						<h4>About Us</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+					</li><a name="location">
+				</ul>
+			</div>
 		</div>
 	</div>
 
 	<div id="primary-content">
-		<div class="wrapper">
-			<article>
-				<h3>Featured Content</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem nec nibh hendrerit imperdiet. </p>
-				<a href="#"><img src="images/video-placeholder.jpg" alt="video placeholder" /></a>
-			</article>
+		<div class="row">
+			<div class="large-12 large-centered columns">
+				<article>
+					<h3>Come Visit Us!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem nec nibh hendrerit imperdiet. </p>
+					<a href="#"><img src="images/map.jpg" alt="video placeholder" /></a>
+				</article>				
+			</div><a name="beans">
 		</div>
 	</div>
 
 	<div id="secondary-content">
-		<div class="wrapper">
-			<article style="background-image: url('images/article-image-1.jpg');">
-				<div class="overlay">
-					<h4>Secondary Content</h4>
-					<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt nam.</small></p>
-					<a href="#" class="more-link">View more</a>
-				</div>
-			</article>
-			<article style="background-image: url('images/article-image-2.jpg');">
-				<div class="overlay">
-					<h4>Secondary Content</h4>
-					<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt nam.</small></p>
-					<a href="#" class="more-link">View more</a>
-				</div>
-			</article><div class="clear"></div>
+		<div class="row">
+			<div class="large-6 columns">
+				<article style="background-image: url('images/article-image-1.jpg'); background-position: right 20px; background-repeat: no-repeat;">
+					<div class="overlay">
+						<h4>Columbian</h4>
+						<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt nam.</small></p>
+						<a href="#" class="more-link">View more</a>
+					</div>
+				</article>			
+			</div>
+			<div class="large-6 columns">
+				<article style="background-image: url('images/article-image-2.jpg'); background-position: right 20px; background-repeat: no-repeat;">
+					<div class="overlay">
+						<h4>Arabica</h4>
+						<p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt nam.</small></p>
+						<a href="#" class="more-link">View more</a>
+					</div>
+				</article>			
+			</div>
 		</div>
 	</div>
 
 	<div id="cta">
-		<div class="wrapper">
+		<div class="row">
+		<div class="large-12 large-centered columns">
 			<h3>Heard Enough?</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt. Nam ultricies odio ac neque suscipit volutpat. Ut dictum adipiscing felis sed malesuada. Integer porta sem nec nibh hendrerit imperdiet. </p>
-			<a href="#" class="button-2">Get Started</a>
+			<a href="#" class="button-2">Order Now</a>			
+		</div>
+
 		</div>
 	</div>
-
+	<a name="about">
 	<footer>
-		<div class="wrapper">
-			<div id="footer-info">
-				<p>Copyright 2014 CompanyName. All rights reserved.</p>
-				<p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+		<div class="row">
+			<div class="large-4 columns">
+				<div id="footer-info">
+					<p>Copyright 2014 CompanyName. All rights reserved.</p>
+					<p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+				</div>			
 			</div>
-			<div id="footer-links">
-				<ul>
-					<li><h5>Company</h5></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Meet The Team</a></li>
-					<li><a href="#">What We Do</a></li>
-					<li><a href="#">Careers</a></li>
-				</ul>
-				<ul>
-					<li><h5>Company</h5></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Meet The Team</a></li>
-					<li><a href="#">What We Do</a></li>
-					<li><a href="#">Careers</a></li>
-				</ul>
-				<ul>
-					<li><h5>Company</h5></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Meet The Team</a></li>
-					<li><a href="#">What We Do</a></li>
-					<li><a href="#">Careers</a></li>
-				</ul>
+			<div class="large-6 columns">
+				<div id="footer-links">
+					<ul>
+						<li><h5>Company</h5></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Meet The Team</a></li>
+						<li><a href="#">What We Do</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+					<ul>
+						<li><h5>Company</h5></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Meet The Team</a></li>
+						<li><a href="#">What We Do</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+					<ul>
+						<li><h5>Company</h5></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Meet The Team</a></li>
+						<li><a href="#">What We Do</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>			
 			</div>
-			<div class="clear"></div>
 		</div>
 	</footer>
-
+	
 </body>
 </html>
